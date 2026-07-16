@@ -103,6 +103,8 @@ nav a {
 footer {
     text-align: center;
     margin-top: 20px;
+    background-color: var(--secondary-color);
+    padding: 16px;
 }
 
 .socialmedia img {
