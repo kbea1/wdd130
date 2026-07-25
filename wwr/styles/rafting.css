@@ -1,7 +1,7 @@
 :root {
     --primary-color: #094074;
     --secondary-color: #F7EF81;
-    --accent1-color: #E88873;
+    --accent1-color: #A84A3F;
     --accent2-color: #F8F8F8;
     --heading-font: 'Georgia', serif;
     --body-font: 'Verdana', sans-serif;
@@ -83,7 +83,7 @@ nav a {
     width: 100%;
     padding: 16px;
     text-align: center;
-    background-color: rgba(168, 74, 58, 0.95);
+    background-color: var(--accent1-color);
     color: #fff;
 }
 
