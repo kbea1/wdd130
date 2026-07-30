@@ -150,3 +150,89 @@ footer {
     font-weight: bold;
     color: var(--primary-color);
 }
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 16px;
+}
+
+.team figure {
+    width: 150px;
+    text-align: center;
+}
+
+.team img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.team figcaption {
+    margin-top: 8px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 12px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: var(--body-font);
+    width: 100%;
+}
+
+.contact-form fieldset {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.contact-form fieldset label {
+    font-weight: normal;
+    color: #333333;
+    display: block;
+    margin: 4px 0;
+}
+
+.contact-form .checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.contact-form button {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.contact-form button:hover {
+    background-color: var(--accent1-color);
+}
