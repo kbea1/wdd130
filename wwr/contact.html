@@ -31,14 +31,48 @@
             <p>Email: info@almasriveradventures.com</p>
         </section>
 
-        <section class="map">
-            <iframe
-              src="https://www.google.com/maps?q=123+River+Road,+Rexburg,+ID+83440&output=embed"
-              width="400" height="300" allowfullscreen>
-            </iframe>
+        <section class="contact-map-form">
+            <section class="map">
+                <iframe
+                  src="https://www.google.com/maps?q=123+River+Road,+Rexburg,+ID+83440&output=embed"
+                  width="400" height="300" allowfullscreen>
+                </iframe>
+            </section>
 
+            <section class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <fieldset>
+                        <legend>Purpose of your message:</legend>
+                        <label><input type="radio" id="purpose-general" name="purpose"
+                              value="general" checked>
+                            General Inquiry</label>
+                        <label><input type="radio" id="purpose-reservation" name="purpose"
+                              value="reservation">
+                            Reservation Question</label>
+                        <label><input type="radio" id="purpose-suggestion" name="purpose"
+                              value="suggestion">
+                            Website Suggestion</label>
+                    </fieldset>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        Please subscribe me to the monthly newsletter
+                    </label>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
         </section>
-
 
         <section class="employees">
             <h2>Meet Our Team</h2>
@@ -56,43 +90,8 @@
                     <figcaption>Diego Torres<br>Safety Coordinator</figcaption>
                 </figure>
             </div>
-
         </section>
 
-        <section class="contact-form">
-            <h2>Send Us a Message</h2>
-            <form action="#" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <fieldset>
-                    <legend>Purpose of your message:</legend>
-                    <label><input type="radio" id="purpose-general" name="purpose" value="general"
-                          checked> General
-                        Inquiry</label>
-                    <label><input type="radio" id="purpose-reservation" name="purpose"
-                          value="reservation"> Reservation
-                        Question</label>
-                    <label><input type="radio" id="purpose-suggestion" name="purpose"
-                          value="suggestion"> Website
-                        Suggestion</label>
-                </fieldset>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-
-                <label class="checkbox-label">
-                    <input type="checkbox" id="newsletter" name="newsletter">
-                    Please subscribe me to the monthly newsletter
-                </label>
-
-                <button type="submit">Send Message</button>
-            </form>
-
-        </section>
     </main>
 
     <footer>
