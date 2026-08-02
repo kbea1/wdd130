@@ -267,3 +267,9 @@ footer {
 .contact-info {
     text-align: center;
 }
+
+.employees {
+    background-color: var(--accent2-color);
+    padding: 16px;
+    border-radius: 8px;
+}
