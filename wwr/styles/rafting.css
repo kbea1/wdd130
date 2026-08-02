@@ -296,3 +296,8 @@ footer {
 .form-row textarea {
     flex: 1;
 }
+
+.contact-form .form-row input,
+.contact-form .form-row textarea {
+    width: auto;
+}
