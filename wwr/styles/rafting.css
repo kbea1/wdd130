@@ -301,3 +301,12 @@ footer {
 .contact-form .form-row textarea {
     width: auto;
 }
+
+.form-row-stacked {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-row-stacked label {
+    width: auto;
+}
