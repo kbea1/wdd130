@@ -280,3 +280,19 @@ footer {
 .employees h2 {
     text-align: center;
 }
+
+.form-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.form-row label {
+    width: 80px;
+    flex-shrink: 0;
+}
+
+.form-row input,
+.form-row textarea {
+    flex: 1;
+}
