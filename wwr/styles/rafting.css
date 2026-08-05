@@ -128,9 +128,8 @@ footer {
 }
 
 .adventures {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     gap: 16px;
     margin: 16px;
 }
@@ -309,4 +308,19 @@ footer {
 
 .form-row-stacked label {
     width: auto;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 16px;
+}
+
+.cta-button:hover {
+    background-color: var(--accent1-color);
 }
